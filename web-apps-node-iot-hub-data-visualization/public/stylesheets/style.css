@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#heartbeatindicator
+{
+  text-align:center;
+  font-size:25;
+  background-color:white;
+  padding-top:60;
+}
