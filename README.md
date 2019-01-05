@@ -1,4 +1,6 @@
 # heartbeat-monitoring-iot
+This mini project was implemented as a part Internet of Things (CS244P) course at University of California, Irvine.<br>
+<br>
 This repo contains code for a web application, which reads the heartbeat from a Sparkfun MAX30105 Pulse Oximetry sensor and sends it to  is connected to an IoT hub using Sparkfun ESP8266 Thing Dev. This real-time data can be seen in a line chart on the web page.<br>
 <br>
 The heartbeat is classified into three categories (sleeping, resting and running) and displayed below the chart.<br>
