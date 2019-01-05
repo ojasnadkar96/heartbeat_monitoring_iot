@@ -1,22 +1,8 @@
-# web-apps-node-iot-hub-data-visualization
-This repo contains code for a web application, which can read temperature & humidity data from IoT hub and show the real-time data in a line chart on the web page.
-
-## Browser compatible
-| Browser | Least Version |
-| --- | --- |
-| IE | 10 |
-| Edge | 14 |
-| Firefox | 50 |
-| Chrome | 49 |
-| Safari | 10 |
-| Opera | 43 |
-| iOS Safari | 9.3 |
-| Opera Mini | ALL |
-| Android Browser | 4.3 |
-| Chrome for Android | 56 |
+# heartbeat-monitoring-iot
+This repo contains code for a web application, which reads the heartbeat from a Sparkfun MAX30105 Pulse Oximetry sensor and sends it to  is connected to an IoT hub using Sparkfun ESP8266 Thing Dev. This real-time data can be seen in a line chart on the web page.
 
 ## Run a daemon application to send data to your IoT hub
-You can refer the related [lesson](#) to run an daemon application, to send data to your IoT hub.
+You can refer the related [lesson](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps) to run an daemon application, to send data to your IoT hub.
 
 ## Add new consumer group to your event hub
 Go to [Azure Portal](https://portal.azure.com) and select your IoT hub. Click `Endpoints -> Events`, add a new consumer group and then save it.
