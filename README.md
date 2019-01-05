@@ -39,6 +39,6 @@ Go to [Azure Portal](https://portal.azure.com) to create your own Azure web app 
 ## Application screenshot
 
 <p align="center">
-  <img src=".app_screenshot.png" alt="Application Screenshot"
+  <img src="./app_screenshot.png" alt="Application Screenshot"
        width="654" height="450">
 </p>
